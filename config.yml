@@ -1,0 +1,67 @@
+baseURL: ""
+languageCode: en-us
+title: Khang Pham
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: ""
+      weight: 10
+    - identifier: about
+      name: About
+      url: "/about/about"
+      weight: 20
+    - identifier: resume
+      name: Resume
+      url: "/resume/resume"
+      weight: 30
+    - identifier: posts
+      name: Posts
+      url: "/posts/"
+      weight: 40
+    - identifier: tags
+      name: Tags
+      url: "/tags/"
+      weight: 50
+
+params:
+  profileMode:
+      enabled: true
+      title: "Khang Pham" # optional default will be site title
+      subtitle: "My personal website"
+      imageUrl: "img/avatar.jpg" # optional
+      imageTitle: "My avatar" # optional
+      imageWidth: 120 # custom size
+      imageHeight: 120 # custom size
+      buttons:
+          - name: Github
+            url: "https://github.com/khangpham2712"
+          - name: Gitlab
+            url: "https://gitlab.zalopay.vn/khangpt3"
+
+  socialIcons: # optional
+      - name: "Facebook"
+        url: "https://www.facebook.com/michael.pham.1401933"
+      - name: "Instagram"
+        url: "https://www.facebook.com/michael.pham.1401933"
+      - name: "Twitter"
+        url: "https://www.facebook.com/michael.pham.1401933"
+      - name: "Linkedin"
+        url: "https://www.facebook.com/michael.pham.1401933"
+
+  ShowShareButtons: true
+
+  ShowBreadCrumbs: true
+
+  ShowPostNavLinks: true
+
+  cover:
+    linkFullImages: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
